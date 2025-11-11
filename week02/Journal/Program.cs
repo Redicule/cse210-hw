@@ -31,11 +31,15 @@ class Program
                     break;
 
                 case "3":
-                    Console.WriteLine("Saving journal...");
+                    Console.Write("Enter filename to save: ");
+                    string saveFile = Console.ReadLine();
+                    journal.Save(saveFile);
                     break;
 
                 case "4":
-                    Console.WriteLine("Loading journal...");
+                    Console.Write("Enter filename to load: ");
+                    string loadFile = Console.ReadLine();
+                    journal.Load(loadFile);
                     break;
 
                 case "5":
