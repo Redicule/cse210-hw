@@ -1,0 +1,3 @@
+5
+SimpleGoal|Clean|Do cleaning!|5|True
+SimpleGoal|Change Bedding|Change your bedding!!|5|False
